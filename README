@@ -26,6 +26,10 @@ Assuming that `folder` is where this folder is copied in your server...
 
 ## Limitations
 
-I've written this in a few hours and it's the first time I do this sort of well-known manipulation so if something breaks I would not be surprised. Proceed with caution.
+I've written this in a few hours and it's the first time I do this sort of `well-known` manipulation so if something breaks I would not be surprised. Proceed with caution.
 
 My current server uses Apache so if you need nginx rules, you'll have to write them yourself! Have a look at .htaccess for what you need to do. Hopefully it's simple enough that it's not too hard. Contributions are welcome.
+
+Also if your server already has content that conflicts (e.g. .htaccess or paths starting with an `@` like the ones for the users), then this might clash to some degree.
+
+Hopefully it is helpful. Good luck and happy federating!
