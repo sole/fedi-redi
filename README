@@ -2,8 +2,11 @@
 
 ## features
 
+* [ ] proxies folder/.well-known/webfinger to redirect-to-server/.well-known/webfinger
+* [ ] proxies folder/.well-known/host-meta to redirect-to-server/.well-known/host-meta
+* [x] proxies folder/.well-known/nodeinfo to redirect-to-server/.well-known/nodeinfo
 * [x] proxies folder/@user to redirect-to-server/@user
 
 ## Limitations
 
-All the CORS alarms are going to ring off. Hashes won't match!
+With the user, all the CORS alarms are going to ring off. Hashes won't match! It should be a redirect.
