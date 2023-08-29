@@ -1,0 +1,9 @@
+# fedi-redi
+
+## features
+
+* [x] proxies folder/@user to redirect-to-server/@user
+
+## Limitations
+
+All the CORS alarms are going to ring off. Hashes won't match!
