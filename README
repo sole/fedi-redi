@@ -2,7 +2,7 @@
 
 ## features
 
-* [ ] proxies folder/.well-known/webfinger to redirect-to-server/.well-known/webfinger
+* [x] proxies folder/.well-known/webfinger to redirect-to-server/.well-known/webfinger
 * [ ] proxies folder/.well-known/host-meta to redirect-to-server/.well-known/host-meta
 * [x] proxies folder/.well-known/nodeinfo to redirect-to-server/.well-known/nodeinfo
 * [x] proxies folder/@user to redirect-to-server/@user
