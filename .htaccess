@@ -2,9 +2,9 @@
 RewriteEngine On
 
 RewriteRule "^.well-known/webfinger" webfinger.php [L]
+RewriteRule "^.well-known/host-meta" host-meta.php [L]
 RewriteRule "^.well-known/nodeinfo" nodeinfo.php [L]
 
 RewriteRule "^@(\w+)$" "user.php?user=$1" [L]
-
 
 </IfModule>
