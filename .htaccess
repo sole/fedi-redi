@@ -2,7 +2,7 @@
 RewriteEngine On
 
 
-RewriteRule "^@supersole$" "user.php?user=supersole"
+RewriteRule "^@(\w+)$" "user.php?user=$1"
 
 
 </IfModule>
