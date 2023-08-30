@@ -20,7 +20,7 @@ And other requests to well-known files should be proxied under the hood.
 Assuming that `folder` is where this folder is copied in your server...
 
 * [x] proxies `folder/.well-known/webfinger` to `redirect-to-server/.well-known/webfinger`
-* [x] proxies `folder/.well-known/host-meta` to `redirect-to-server/.well-known/host-meta`
+* [x] redirects `folder/.well-known/host-meta` to `redirect-to-server/.well-known/host-meta`
 * [x] proxies `folder/.well-known/nodeinfo` to `redirect-to-server/.well-known/nodeinfo`
 * [x] redirects `folder/@user` to `redirect-to-server/@user`
 
