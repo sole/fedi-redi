@@ -1,6 +1,6 @@
 <?php
 require_once('config.php');
-require_once('miniproxy.php');
+require_once('functions.php');
 
 $query_string = isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : null;
 

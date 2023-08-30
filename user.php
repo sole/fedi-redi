@@ -1,6 +1,6 @@
 <?php
 require_once('config.php');
-require_once('miniproxy.php');
+require_once('functions.php');
 
 // Redirect from XYZ.domain/@user to domain/@user
 $user = $_GET['user'];
@@ -11,5 +11,4 @@ if(strlen($user) === 0) {
 }
 
 $dst_url = $fediredi_config['redirect_to_server'] . '@' . $user;
-header('Location: '. $dst_url);
-die;
+redirect($dst_url);

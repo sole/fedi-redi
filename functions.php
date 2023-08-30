@@ -1,6 +1,7 @@
 <?php
 
 function miniproxy($url) {
+	//error_log('miniproxy to ' . $url);
 	$response_headers = array();
 
 	try {
@@ -25,5 +26,12 @@ function miniproxy($url) {
 
 	} catch (Exception $e) {
 		echo 'Error: ' . $e->getMessage();
+	}
+}
+
+function redirect($url, $thenDie = true) {
+	header('Location: '. $url);
+	if($thenDie) {
+		die;
 	}
 }
